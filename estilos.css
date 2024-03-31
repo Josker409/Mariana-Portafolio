@@ -83,6 +83,10 @@ header{
     margin: 50px;
 }
 
+row{
+    margin: 100px;
+}
+
 footer{
     color: chartreuse;
     padding: 20px;
