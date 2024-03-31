@@ -1,0 +1,106 @@
+$color_1: aqua;
+$color_2: cadetblue;
+$color_3: #131B23;
+$color_4: #F8FFE5;
+$color_5: #000;
+$color_6: chartreuse;
+$color_7: salmon;
+$color_8: sandybrown;
+$font-family_1: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$background-color_1: darkorange;
+$background-color_2: tomato;
+$background-color_3: darksalmon;
+
+@import "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+	font-size: 20px;
+}
+header {
+	height: 20px;
+	width: 50px;
+	padding: 30px;
+	font-size: 20px;
+	color: $color_1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bolder;
+}
+.navbar {
+	height: 2px;
+	width: auto;
+}
+.foto {
+	height: 400px;
+	margin: 10px;
+}
+.logo {
+	float: left;
+	color: $color_2;
+	span {
+		color: $color_3;
+	}
+}
+.barra {
+	float: right;
+	text-shadow: none;
+	ul {
+		li {
+			list-style: none;
+			display: inline-block;
+			padding: 2px;
+		}
+	}
+	a {
+		color: $color_4;
+		text-decoration: none;
+		animation-duration: 2s;
+		animation-name: aparecer;
+		animation-delay: 3s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
+	}
+}
+.boton-resumen {
+	color: $color_5;
+	background-color: $background-color_1;
+	text-decoration: none;
+}
+.boton-trabajo {
+	color: $color_5;
+	background-color: $background-color_2;
+	text-decoration: none;
+}
+.boton-contacto {
+	color: $color_5;
+	background-color: $background-color_3;
+	text-decoration: none;
+}
+.texto {
+	height: 1400px;
+	width: 600px;
+	margin: 50px;
+}
+footer {
+	color: $color_6;
+	padding: 20px;
+	text-align: center;
+	p {
+		margin-bottom: 20px;
+		color: $color_7;
+	}
+	.redes {
+		a {
+			color: $color_8;
+			text-decoration: none;
+		}
+		i {
+			color: $color_1;
+			font-style: 50px;
+		}
+	}
+}

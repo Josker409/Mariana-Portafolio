@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* background-color: darkgray; */
+}
+
+header{
+    height: 20px;
+    width: 50px;
+    padding: 30px;
+    font-size: 20px;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
+.navbar{
+    height: 2px;
+    width: auto;
+}
+
+.foto{
+    height: 400px;
+    margin: 10px;
+}
+
+.logo {
+    float: left;
+    color: cadetblue;
+}
+.logo span {
+    color: #131B23;
+}
+.barra {
+    float: right;
+    text-shadow: none;
+}
+.barra ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
+}
+.barra a {
+    color: #F8FFE5;
+    text-decoration: none;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.boton-resumen{
+    color: #000;
+    background-color: darkorange;
+    text-decoration: none;
+
+}
+.boton-trabajo{
+    color: #000;
+    background-color: tomato;
+    text-decoration: none;
+
+}
+.boton-contacto{
+    color: #000;
+    background-color: darksalmon;
+    text-decoration: none;
+
+}
+
+.texto{
+    height: 1400px;
+    width: 600px;
+    margin: 50px;
+}
+
+footer{
+    color: chartreuse;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer p{
+    margin-bottom: 20px;
+    color: salmon;
+}
+
+footer .redes a{
+    color: sandybrown;
+    text-decoration: none;
+}
+
+footer .redes i{
+    color: aqua;
+    font-style: 50px;
+}
