@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: poopins;
     font-size: 20px;
     /* background-color: darkgray; */
 }
@@ -115,21 +115,37 @@ footer{
     color: chartreuse;
     padding: 20px;
     text-align: center;
+    height: 150px;
 }
 
 footer p{
     margin-bottom: 20px;
-    color: salmon;
+    color: #000;
 }
 
 footer .redes a{
-    color: sandybrown;
+    color: #000; 
     text-decoration: none;
 }
 
 footer .redes i{
-    color: aqua;
+    color: #000;
     font-style: 50px;
+}
+.numero{
+    margin: 60px;
+}
+.correo{
+    margin: 60px;
+}
+.linkedin{
+    margin: 10px;
+}
+.instagram{
+    margin: 10px;
+}
+.copyright{
+    margin: 60px;
 }
 
 /*Experiencia laboral  */
@@ -144,3 +160,5 @@ dt{
     margin-left: 40px;
     margin-right: 0;
 }
+
+/* Contacto */
