@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap";
 
+/* Inicio */
 *{
     margin: 0;
     padding: 0;
@@ -25,17 +26,24 @@ header{
     border-radius: 50%;
 }
 
-
+.collapse navbar-collapse{
+    margin-left: 20px;
+}
 .navbar{
     height: 2px;
     width: auto;
 }
 
 .foto{
-    height: 400px;
+    height: 450px;
     margin: 10px;
+    border: 100%;
 }
-
+.container-fluid2{
+    margin-left: 160px;
+    margin-right:140px;
+    padding: 40px;
+}
 .logo {
     float: left;
     color: cadetblue;
@@ -62,46 +70,20 @@ header{
     animation-iteration-count: infinite;
 }
 
-/* .boton-resumen{
+.btn-1{
     color: #000;
     background-color: darkorange;
     text-decoration: none;
-    height: 120px;
-    width: 120px;
-    display: flex;
-    border-radius: 100%;
-    text-align: unset;
-}
-.boton-trabajo{
-    color: #000;
-    background-color: tomato;
-    text-decoration: none;
-    height: 120px;
-    width: 120px;
-    display: flex;
-    border-radius: 80%;
-}
-.boton-contacto{
-    color: #000;
-    background-color: darksalmon;
-    text-decoration: none;
-    height: 120px;
-    width: 120px;
-    display: flex;
-    border-radius: 80%;
-} */
-
-.resumen{
-    color: #000;
-    background-color: darkorange;
-    text-decoration: none;
+    text-shadow: none;
     height: 120px;
     width: 120px;
     display: flex;
     border-radius: 100%;
     margin-left: 600px;
+    background-position: center;
 }
-.experiencia{
+
+.btn-2{
     color: #000;
     background-color: tomato;
     text-decoration: none;
@@ -111,7 +93,7 @@ header{
     border-radius: 80%;
     margin-left: 20px;
 }
-.contacto{
+.btn-3{
     color: #000;
     background-color: darksalmon;
     text-decoration: none;
@@ -122,17 +104,18 @@ header{
     margin-left: 20px;
 }
 
+.experiencia{
+    margin-left: 10px !important;
+}
 
 section{
     height: 200px;
 }
-
 footer{
     color: chartreuse;
     padding: 20px;
     text-align: center;
 }
-
 
 footer p{
     margin-bottom: 20px;
@@ -147,4 +130,17 @@ footer .redes a{
 footer .redes i{
     color: aqua;
     font-style: 50px;
+}
+
+/*Experiencia laboral  */
+p{
+    margin-left: 100px;
+    color: darkorange;
+}
+dt{
+    margin-left: 100px;
+}
+.container-fluid{
+    margin-left: 40px;
+    margin-right: 0;
 }
