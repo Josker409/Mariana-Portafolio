@@ -79,8 +79,9 @@ header{
     width: 120px;
     display: flex;
     border-radius: 100%;
-    margin-left: 600px;
+    margin-left: 20px;
     background-position: center;
+    text-align: center;
 }
 
 .btn-2{
@@ -91,7 +92,7 @@ header{
     width: 120px;
     display: flex;
     border-radius: 80%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .btn-3{
     color: #000;
@@ -101,7 +102,7 @@ header{
     width: 120px;
     display: flex;
     border-radius: 80%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .experiencia{
@@ -133,35 +134,45 @@ footer .redes i{
     font-style: 50px;
 }
 .numero{
-    margin: 60px;
+    margin: 30px;
 }
 .correo{
-    margin: 60px;
+    margin: 40px;
 }
 .linkedin{
-    margin: 10px;
+    margin: 20px;
 }
 .instagram{
-    margin: 10px;
+    margin: 30px;
 }
 .copyright{
-    margin: 60px;
+    margin: 100px;
+    text-align: center;
+    position: static;
 }
 
 /*Experiencia laboral  */
 p{
     margin-left: 100px;
+    height: 20px;
+    text-align: start;
     color: darkorange;
 }
 dt{
-    margin-left: 100px;
-}
-.container-fluid{
     margin-left: 40px;
+}
+.container{
+    margin-left: 10px;
     margin-right: 0;
 }
 h2{
-    margin-left: 440px;
+    margin-left: 20px;
 }
 
-/* Contacto */
+
+@media only screen and (min-widht: 660px) {
+    .row{
+        margin-bottom: 1000px;
+    }
+    
+}
