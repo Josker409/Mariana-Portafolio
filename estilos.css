@@ -167,6 +167,11 @@ dt{
     margin-left: 10px;
     margin-right: 0;
 }
+.navega{
+    text-decoration: none;
+    text-shadow: none;
+    color: cadetblue;
+}
 
 
 @media only screen and (min-width: 0px) {
@@ -222,14 +227,14 @@ dt{
 
 @media only screen and (min-width: 318px) {
     .btn-1{
-        margin-left: 2px;
+        margin-left: 10px;
         display: block;
     }
     .btn-2{
-        margin-left: 2px;
+        margin-left: 4px;
     }
     .btn-3{
-        margin-left: 2px;
+        margin-left: 4px;
     }
     .correo{
         margin-left: 2px;
