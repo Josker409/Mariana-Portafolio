@@ -69,7 +69,9 @@ header{
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
-
+.texto{
+    text-align: center;
+}
 .btn-1{
     color: #000;
     background-color: darkorange;
@@ -165,9 +167,7 @@ dt{
     margin-left: 10px;
     margin-right: 0;
 }
-h2{
-    margin-left: 20px;
-}
+
 
 @media only screen and (min-width: 0px) {
     *{
@@ -209,6 +209,40 @@ h2{
     }
     .copyright{
         margin: 40px;
+        text-align: center;
+        position: static;
+    }
+    p{
+        margin-left: 60px;
+        height: 20px;
+        text-align: start;
+        color: darkorange;
+    }
+}
+
+@media only screen and (min-width: 318px) {
+    .btn-1{
+        margin-left: 2px;
+        display: block;
+    }
+    .btn-2{
+        margin-left: 2px;
+    }
+    .btn-3{
+        margin-left: 2px;
+    }
+    .correo{
+        margin-left: 2px;
+    }
+    .linkedin{
+        margin: 1px;
+    }
+    .instagram{
+        position: static;
+        margin: 1px;
+    }
+    .copyright{
+        margin: 1px;
         text-align: center;
         position: static;
     }
