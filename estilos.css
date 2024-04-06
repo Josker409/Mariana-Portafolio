@@ -165,7 +165,7 @@ dt{
 .navega{
     text-decoration: none;
     text-shadow: none;
-    color: cadetblue;
+    color: #000;
 }
 
 
@@ -635,12 +635,12 @@ dt{
 
 @media only screen and (min-width: 875px) {
     .row{
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .foto{
-        height: 360px;
+        height: 380px;
         border: 100%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .texto{
         text-align: right;
@@ -707,9 +707,9 @@ dt{
         margin-left: 20px;
     }
     .foto{
-        height: 420px;
+        height: 380px;
         border: 100%;
-        margin: 40px;
+        margin: 60px;
     }
     .texto{
         text-align: right;
@@ -780,7 +780,7 @@ dt{
     }
     t
     aside{
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .foto{
         height: 440px;
