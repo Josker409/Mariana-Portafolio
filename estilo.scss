@@ -13,13 +13,12 @@ $background-color_3: darksalmon;
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 /* Inicio */
 /*Experiencia laboral  */
-/* Contacto */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: $font-family_1;
-	font-size: 20px;
+	font-size: 15px;
 }
 header {
 	height: 20px;
@@ -33,7 +32,7 @@ header {
 	font-weight: bolder;
 }
 .foto {
-	border-radius: 50%;
+	border-radius: 60%;
 	height: 450px;
 	margin: 10px;
 	border: 100%;
@@ -88,8 +87,7 @@ header {
 	width: 120px;
 	display: flex;
 	border-radius: 100%;
-	margin-left: 600px;
-	background-position: center;
+	margin-left: 1px;
 }
 .btn-2 {
 	color: $color_5;
@@ -99,7 +97,7 @@ header {
 	width: 120px;
 	display: flex;
 	border-radius: 80%;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .btn-3 {
 	color: $color_5;
@@ -108,11 +106,14 @@ header {
 	height: 120px;
 	width: 120px;
 	display: flex;
-	border-radius: 80%;
-	margin-left: 20px;
+	border-radius: 100%;
+	margin-left: 1px;
 }
 .experiencia {
 	margin-left: 10px !important;
+}
+.boton {
+	border-radius: 80%;
 }
 section {
 	height: 200px;
@@ -138,31 +139,678 @@ footer {
 	}
 }
 .numero {
-	margin: 60px;
+	margin: 30px;
 }
 .correo {
-	margin: 60px;
+	margin: 40px;
 }
 .linkedin {
-	margin: 10px;
+	margin: 20px;
 }
 .instagram {
-	margin: 10px;
+	margin: 30px;
 }
 .copyright {
-	margin: 60px;
+	margin: 100px;
+	text-align: center;
+	position: static;
 }
 p {
 	margin-left: 100px;
+	height: 20px;
+	text-align: start;
 	color: $color_7;
 }
 dt {
-	margin-left: 100px;
-}
-.container-fluid {
 	margin-left: 40px;
+}
+.container {
+	margin-left: 10px;
 	margin-right: 0;
 }
-h2 {
-	margin-left: 440px;
+.navega {
+	text-decoration: none;
+	text-shadow: none;
+	color: $color_2;
 }
+@media only screen and (min-width: 0px) {
+	* {
+		position: static;
+		text-align: center;
+	}
+	.foto {
+		height: 300px;
+		margin-top: 2px;
+		border: 100%;
+	}
+	h5 {
+		text-align: left;
+	}
+	h2 {
+		text-align: left;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 90px;
+		width: 90px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 90px;
+		width: 90px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 90px;
+		width: 90px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 20px;
+	}
+	.linkedin {
+		margin: 50px;
+	}
+	.copyright {
+		margin: 40px;
+		text-align: center;
+		position: static;
+	}
+	p {
+		margin-left: 60px;
+		height: 20px;
+		text-align: start;
+		color: $color_7;
+	}
+}
+@media only screen and (min-width: 318px) {
+	.texto {
+		text-align: right;
+	}
+	.correo {
+		margin-left: 2px;
+	}
+	.linkedin {
+		margin: 10px;
+	}
+	.copyright {
+		margin: 10px;
+		text-align: center;
+		position: static;
+	}
+}
+@media only screen and (min-width: 361px) {
+	* {
+		position: static;
+		text-align: center;
+	}
+	.foto {
+		height: 380px;
+		margin: 1px;
+		border: 100%;
+	}
+	.texto {
+		text-align: right;
+	}
+	.correo {
+		margin: 20px;
+	}
+	.linkedin {
+		margin: 20px;
+	}
+	.copyright {
+		margin: 60px;
+		text-align: center;
+		position: static;
+	}
+	h2 {
+		text-align: left;
+	}
+	h5 {
+		text-align: left;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 381px) {
+	.row {
+		margin-left: 10px;
+	}
+	.correo {
+		margin: 40px;
+	}
+	.linkedin {
+		margin: 10px;
+	}
+	.copyright {
+		margin: 10px;
+		text-align: center;
+		position: static;
+	}
+}
+@media only screen and (min-width: 420px) {
+	.row {
+		margin-left: 20px;
+	}
+	.h2 {
+		position: relative;
+		margin-left: 1px;
+	}
+	.linkedin {
+		margin: 10px;
+	}
+	.copyright {
+		margin: 30px;
+		position: static;
+	}
+}
+@media only screen and (min-width: 441px) {
+	.correo {
+		margin: 40px;
+	}
+	.linkedin {
+		margin: 20px;
+	}
+	.copyright {
+		margin: 100px;
+		text-align: center;
+		position: static;
+	}
+}
+@media only screen and (min-width: 450px) {
+	* {
+		position: static;
+		text-align: center;
+	}
+	.foto {
+		height: 380px;
+		margin: 1px;
+		border: 100%;
+	}
+	li {
+		text-align: left;
+	}
+	.h2 {
+		text-align: left;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 40px;
+	}
+	.linkedin {
+		margin: 20px;
+	}
+	.copyright {
+		margin: 60px;
+		text-align: center;
+		position: static;
+	}
+}
+@media only screen and (min-width: 472px) {
+	.foto {
+		height: 450px;
+		margin: 1px;
+		border: 100%;
+	}
+	.punto {
+		text-align: left;
+	}
+	.correo {
+		margin: 60px;
+	}
+	.linkedin {
+		margin: 30px;
+	}
+	.copyright {
+		margin: 10px;
+		text-align: center;
+		position: static;
+	}
+	li {
+		text-align: left;
+	}
+	.h2 {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 500px) {
+	.correo {
+		margin: 70px;
+	}
+	.linkedin {
+		margin: 30px;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 110px;
+		width: 110px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 110px;
+		width: 110px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 110px;
+		width: 110px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.copyright {
+		margin: 30px;
+		text-align: center;
+		position: static;
+	}
+	.h2 {
+		position: relative;
+		margin-left: 1px;
+	}
+}
+@media only screen and (min-width: 533px) {
+	.correo {
+		margin: 10px;
+	}
+	.linkedin {
+		margin: 10px;
+	}
+	.copyright {
+		margin: 10px;
+	}
+}
+@media only screen and (min-width: 593px) {
+	.foto {
+		height: 480px;
+		margin-left: 60px;
+		border: 100%;
+	}
+	.texto {
+		text-align: right;
+	}
+	.correo {
+		margin: 20px;
+	}
+	.linkedin {
+		margin: 20px;
+	}
+	.copyright {
+		margin: 10px;
+	}
+	h2 {
+		text-align: left;
+	}
+	h5 {
+		text-align: left;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 663px) {
+	.foto {
+		height: 480px;
+		margin-left: 100px;
+		border: 100%;
+	}
+	.texto {
+		text-align: right;
+	}
+	.correo {
+		margin: 30px;
+	}
+	.linkedin {
+		margin: 30px;
+	}
+	.copyright {
+		margin: 30px;
+	}
+	h2 {
+		text-align: left;
+	}
+	h5 {
+		text-align: left;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 766px) {
+	.row {
+		margin-left: 10px;
+	}
+	.foto {
+		height: 340px;
+		border: 100%;
+		margin: 40px;
+	}
+	.texto {
+		text-align: right;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 100px;
+		width: 100px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 60px;
+	}
+	.linkedin {
+		margin: 40px;
+	}
+	.copyright {
+		margin: 40px;
+	}
+	h2 {
+		text-align: left;
+	}
+	h5 {
+		text-align: left;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 875px) {
+	.row {
+		margin-left: 20px;
+	}
+	.foto {
+		height: 360px;
+		border: 100%;
+		margin-left: 20px;
+	}
+	.texto {
+		text-align: right;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 80px;
+	}
+	.linkedin {
+		margin: 60px;
+	}
+	.copyright {
+		margin: 60px;
+	}
+	h2 {
+		text-align: left;
+	}
+	h5 {
+		text-align: left;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 986px) {
+	.row {
+		margin-left: 20px;
+	}
+	.foto {
+		height: 420px;
+		border: 100%;
+		margin: 40px;
+	}
+	.texto {
+		text-align: right;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 95px;
+		width: 95px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 80px;
+	}
+	.linkedin {
+		margin: 80px;
+	}
+	.copyright {
+		margin: 80px;
+	}
+	h2 {
+		text-align: left;
+		margin-left: 40px;
+	}
+	h5 {
+		text-align: left;
+		margin-left: 40px;
+	}
+	dt {
+		text-align: left;
+	}
+	li {
+		text-align: left;
+	}
+	.punto {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 1020px) {
+	.row {
+		margin-left: 60px;
+	}
+	t {
+		aside {
+			margin-left: 40px;
+		}
+	}
+	.foto {
+		height: 440px;
+		border: 100%;
+		margin: 80px;
+	}
+	.btn-1 {
+		color: $color_5;
+		background-color: $background-color_1;
+		text-decoration: none;
+		text-shadow: none;
+		height: 120px;
+		width: 120px;
+		display: flex;
+		border-radius: 100%;
+		margin-left: 1px;
+	}
+	.btn-2 {
+		color: $color_5;
+		background-color: $background-color_2;
+		text-decoration: none;
+		height: 120px;
+		width: 120px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.btn-3 {
+		color: $color_5;
+		background-color: $background-color_3;
+		text-decoration: none;
+		height: 120px;
+		width: 120px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
+	.correo {
+		margin: 100px;
+	}
+	.linkedin {
+		margin: 100px;
+	}
+	.copyright {
+		margin: 100px;
+	}
+}
+

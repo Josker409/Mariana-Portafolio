@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     /* background-color: darkgray; */
 }
 
@@ -23,7 +23,7 @@ header{
 }
 
 .foto{
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .collapse navbar-collapse{
@@ -69,9 +69,6 @@ header{
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
-.texto{
-    text-align: center;
-}
 .btn-1{
     color: #000;
     background-color: darkorange;
@@ -81,11 +78,8 @@ header{
     width: 120px;
     display: flex;
     border-radius: 100%;
-    margin-left: 20px;
-    background-position: center;
-    text-align: center;
+    margin-left: 1px;
 }
-
 .btn-2{
     color: #000;
     background-color: tomato;
@@ -103,14 +97,15 @@ header{
     height: 120px;
     width: 120px;
     display: flex;
-    border-radius: 80%;
-    margin-left: 10px;
+    border-radius: 100%;
+    margin-left: 1px;
 }
-
 .experiencia{
     margin-left: 10px !important;
 }
-
+.boton{
+    border-radius: 80%;
+}
 section{
     height: 200px;
 }
@@ -180,36 +175,51 @@ dt{
         text-align: center;
     }
     .foto{
-        height: 350px;
-        margin: 6px;
+        height: 300px;
+        margin-top: 2px;
         border: 100%;
     }
-    dt{
-        margin-left: 1px;
+    h5{
+        text-align: left;;
     }
-    ul{
-        margin-left: 1px
+    h2{
+        text-align: left;
     }
     .btn-1{
-        margin-left: 8px;
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 90px;
+        width: 90px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
     }
     .btn-2{
-        margin-left: 8px;
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 90px;
+        width: 90px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
     .btn-3{
-        margin-left: 8px;
-    }
-    .numero{
-        margin: 10px;
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 90px;
+        width: 90px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
     .correo{
         margin: 20px;
     }
     .linkedin{
-        margin: 50px;
-    }
-    .instagram{
-        position: static;
         margin: 50px;
     }
     .copyright{
@@ -226,28 +236,17 @@ dt{
 }
 
 @media only screen and (min-width: 318px) {
-    .btn-1{
-        margin-left: 10px;
-        display: block;
-    }
-    .btn-2{
-        margin-left: 4px;
-    }
-    .btn-3{
-        margin-left: 4px;
+    .texto{
+        text-align: right;
     }
     .correo{
         margin-left: 2px;
     }
     .linkedin{
-        margin: 1px;
-    }
-    .instagram{
-        position: static;
-        margin: 1px;
+        margin: 10px;
     }
     .copyright{
-        margin: 1px;
+        margin: 10px;
         text-align: center;
         position: static;
     }
@@ -259,58 +258,49 @@ dt{
         text-align: center;
     }
     .foto{
-        height: 350px;
+        height: 380px;
         margin: 1px;
         border: 100%;
     }
-    dt{
-        margin-left: 1px;
-    }
-    ul{
-        margin-left: 1px
-    }
-    .btn-1{
-        margin-left: 10px;
-        display: block;
-    }
-    .btn-2{
-        margin-left: 8px;
-    }
-    .btn-3{
-        margin-left: 8px;
-    }
-    .numero{
-        margin: 10px;
+    .texto{
+        text-align: right;
     }
     .correo{
         margin: 20px;
     }
     .linkedin{
-        margin: 50px;
-    }
-    .instagram{
-        position: static;
-        margin: 50px;
+        margin: 20px;
     }
     .copyright{
-        margin: 40px;
+        margin: 60px;
         text-align: center;
         position: static;
+    }
+    h2{
+        text-align: left;
+    }
+    h5{
+        text-align: left;
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
     }
 }
 
 @media only screen and (min-width: 381px) {
-    .numero{
-        margin: 10px;
+    .row{
+        margin-left: 10px;
     }
     .correo{
         margin: 40px;
     }
     .linkedin{
-        margin: 10px;
-    }
-    .instagram{
-        position: static;
         margin: 10px;
     }
     .copyright{
@@ -321,21 +311,14 @@ dt{
 }
 
 @media only screen and (min-width: 420px) {
-    .punto{
-        position: static;
-        text-align: center;
-        list-style-type: none;
-        margin-left: 1px !important;
+    .row{
+        margin-left: 20px;
     }
     .h2{
         position: relative;
         margin-left: 1px;
     }
     .linkedin{
-        margin: 10px;
-    }
-    .instagram{
-        position: static;
         margin: 10px;
     }
     .copyright{
@@ -346,21 +329,14 @@ dt{
 }
 
 @media only screen and (min-width: 441px) {
-    .numero{
-        margin: 10px;
-    }
     .correo{
-        margin: 50px;
+        margin: 40px;
     }
     .linkedin{
         margin: 20px;
     }
-    .instagram{
-        position: static;
-        margin: 20px;
-    }
     .copyright{
-        margin: 80px;
+        margin: 100px;
         text-align: center;
         position: static;
     }
@@ -372,293 +348,483 @@ dt{
         text-align: center;
     }
     .foto{
-        height: 350px;
+        height: 380px;
         margin: 1px;
         border: 100%;
     }
-    dt{
-        margin-left: 1px;
-    }
-    ul{
-        margin-left: 1px
-    }
-    .btn-1{
-        margin-left: 100px;
-        display: block;
-    }
-    .btn-2{
-        margin-left: 8px;
-    }
-    .btn-3{
-        margin-left: 8px;
-    }
-    .punto{
-        position: static;
-        text-align: center;
-        list-style-type: none;
-        margin-left: 1px !important;
+    li{
+        text-align: left;
     }
     .h2{
-        position: relative;
+        text-align: left;
+    }
+    .btn-1{
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 100%;
         margin-left: 1px;
     }
-    .numero{
-        margin: 10px;
+    .btn-2{
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .btn-3{
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
     .correo{
-        margin: 60px;
+        margin: 40px;
     }
     .linkedin{
         margin: 20px;
     }
-    .instagram{
-        position: static;
-        margin: 10px;
-    }
     .copyright{
-        margin: 40px;
+        margin: 60px;
         text-align: center;
         position: static;
     }
 }
 
 @media only screen and (min-width: 472px) {
-    *{
-        position: static;
-        text-align: center;
-    }
     .foto{
-        height: 350px;
+        height: 450px;
         margin: 1px;
         border: 100%;
     }
-    dt{
-        margin-left: 1px;
+    .punto{
+        text-align: left;
     }
-    ul{
-        margin-left: 1px
+    .correo{
+        margin: 60px;
+    }
+    .linkedin{
+        margin: 30px;
+    }
+    .copyright{
+        margin: 10px;
+        text-align: center;
+        position: static;
+    }
+    li{
+        text-align: left;
+    }
+    .h2{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .correo{
+        margin: 70px;
+    }
+    .linkedin{
+        margin: 30px;
     }
     .btn-1{
-        margin-left: 100px;
-        display: block;
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 110px;
+        width: 110px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
     }
     .btn-2{
-        margin-left: 8px;
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 110px;
+        width: 110px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
     .btn-3{
-        margin-left: 8px;
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 110px;
+        width: 110px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
-    .punto{
-        position: static;
+    .copyright{
+        margin: 30px;
         text-align: center;
-        list-style-type: none;
-        margin-left: 1px !important;
+        position: static;
     }
     .h2{
         position: relative;
         margin-left: 1px;
     }
-    .numero{
-        margin: 10px;
-    }
-    .correo{
-        margin: 60px;
-    }
-    .linkedin{
-        margin: 20px;
-    }
-    .instagram{
-        position: static;
-        margin: 20px;
-    }
-    .copyright{
-        margin: 10px;
-        text-align: center;
-        position: static;
-    }
-}
-
-@media only screen and (min-width: 487px) {
-    .numero{
-        margin: 10px;
-    }
-    .correo{
-        margin: 70px;
-    }
-    .linkedin{
-        margin: 30px;
-    }
-    .instagram{
-        position: static;
-        margin: 10px;
-    }
-    .copyright{
-        margin: 10px;
-        text-align: center;
-        position: static;
-    }
-}
-
-@media only screen and (min-width: 500px) {
-    .numero{
-        margin: 10px;
-    }
-    .correo{
-        margin: 80px;
-    }
-    .linkedin{
-        margin: 30px;
-    }
-    .instagram{
-        position: static;
-        margin: 10px;
-    }
-    .copyright{
-        margin: 20px;
-        text-align: center;
-        position: static;
-    }
 }
 
 @media only screen and (min-width: 533px) {
-    .btn-1{
-        margin-left: 120px;
-        display: block;
-    }
-.correo{
-        margin: 90px;
+    .correo{
+        margin: 10px;
     }
     .linkedin{
-        margin: 70px;
-    }
-    .instagram{
-        position: static;
         margin: 10px;
     }
     .copyright{
-        margin: 40px;
-        text-align: center;
-        position: static;
+        margin: 10px;
     }
 }
-@media only screen and (min-width: 595px) {
-    .btn-1{
-        margin-left: 120px;
-        display: block;
+@media only screen and (min-width: 593px) {
+    .foto{
+        height: 480px;
+        margin-left: 60px;
+        border: 100%;
     }
-.correo{
-        margin: 60px;
+    .texto{
+        text-align: right;
+    }
+
+    .correo{
+        margin: 20px;
     }
     .linkedin{
-        margin: 70px;
-    }
-    .instagram{
-        position: static;
-        margin: 10px;
+        margin: 20px;
     }
     .copyright{
-        margin: 20px;
-        text-align: center;
-        position: static;
+        margin: 10px;
+    }
+    h2{
+        text-align: left;
+    }
+    h5{
+        text-align: left;
+        
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
     }
 }
 
 @media only screen and (min-width: 663px) {
-    .btn-1{
-        margin-left: 120px;
-        display: block;
+    .foto{
+        height: 480px;
+        margin-left: 100px;
+        border: 100%;
     }
-.correo{
-        margin: 60px;
+    .texto{
+        text-align: right;
+    }
+    .correo{
+        margin: 30px;
     }
     .linkedin{
-        margin: 90px;
-    }
-    .instagram{
-        position: static;
-        margin: 10px;
+        margin: 30px;
     }
     .copyright{
         margin: 30px;
-        text-align: center;
-        position: static;
+    }
+    h2{
+        text-align: left;
+    }
+    h5{
+        text-align: left;
+        
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
     }
 }
 
 @media only screen and (min-width: 766px) {
-    .btn-1{
-        margin-left: 200px;
-        display: block;
+    .row{
+        margin-left: 10px;
     }
-.correo{
+    .foto{
+        height: 340px;
+        border: 100%;
         margin: 40px;
+    }
+    .texto{
+        text-align: right;
+    }
+    .btn-1{
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
+    }
+    .btn-2{
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .btn-3{
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .correo{
+        margin: 60px;
     }
     .linkedin{
         margin: 40px;
     }
-    .instagram{
-        position: static;
-        margin: 10px;
-    }
     .copyright{
-        margin: 50px;
-        text-align: center;
-        position: static;
+        margin: 40px;
+    }
+    h2{
+        text-align: left;
+    }
+    h5{
+        text-align: left;
+        
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
     }
 }
 
 @media only screen and (min-width: 875px) {
+    .row{
+        margin-left: 20px;
+    }
+    .foto{
+        height: 360px;
+        border: 100%;
+        margin-left: 20px;
+    }
+    .texto{
+        text-align: right;
+    }
     .btn-1{
-        margin-left: 280px;
-        display: block;
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
     }
-.correo{
-        margin: 40px;
+    .btn-2{
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
-    .linkedin{
-        margin: 40px;
+    .btn-3{
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
     }
-    .instagram{
-        position: static;
-        margin: 20px;
-    }
-    .copyright{
-        margin: 140px;
-        text-align: center;
-        position: static;
-    }
-}
-
-@media only screen and (min-width: 986px) {
-    .btn-1{
-        margin-left: 300px;
-        display: block;
-    }
-.correo{
+    .correo{
         margin: 80px;
     }
     .linkedin{
         margin: 60px;
     }
-    .instagram{
-        position: static;
-        margin: 20px;
-    }
     .copyright{
-        margin: 140px;
-        text-align: center;
-        position: static;
+        margin: 60px;
+    }
+    h2{
+        text-align: left;
+    }
+    h5{
+        text-align: left;
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
     }
 }
 
 @media only screen and (min-width: 986px) {
+    .row{
+        margin-left: 20px;
+    }
+    .foto{
+        height: 420px;
+        border: 100%;
+        margin: 40px;
+    }
+    .texto{
+        text-align: right;
+    }
     .btn-1{
-        margin-left: 460px;
-        display: block;
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
+    }
+    .btn-2{
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .btn-3{
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 95px;
+        width: 95px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .correo{
+        margin: 80px;
+    }
+    .linkedin{
+        margin: 80px;
     }
     .copyright{
-        margin: 240px;
-        text-align: center;
-        position: static;
+        margin: 80px;
+    }
+    h2{
+        text-align: left;
+        margin-left: 40px;
+    }
+    h5{
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    dt{
+        text-align: left;
+    }
+    li{
+        text-align: left;
+    }
+    .punto{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .row{
+        margin-left: 60px;
+    }
+    t
+    aside{
+        margin-left: 40px;
+    }
+    .foto{
+        height: 440px;
+        border: 100%;
+        margin: 80px;
+    }
+    .btn-1{
+        color: #000;
+        background-color: darkorange;
+        text-decoration: none;
+        text-shadow: none;
+        height: 120px;
+        width: 120px;
+        display: flex;
+        border-radius: 100%;
+        margin-left: 1px;
+    }
+    .btn-2{
+        color: #000;
+        background-color: tomato;
+        text-decoration: none;
+        height: 120px;
+        width: 120px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .btn-3{
+        color: #000;
+        background-color: darksalmon;
+        text-decoration: none;
+        height: 120px;
+        width: 120px;
+        display: flex;
+        border-radius: 80%;
+        margin-left: 1px;
+    }
+    .correo{
+        margin: 100px;
+    }
+    .linkedin{
+        margin: 100px;
+    }
+    .copyright{
+        margin: 100px;
     }
 }
