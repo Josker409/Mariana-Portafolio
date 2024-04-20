@@ -102,6 +102,8 @@ nav{
     animation-iteration-count: infinite;
 }
 .btn-1{
+    padding: 20px;
+    padding-block: 46px;
     color: #000;
     background-color: darkorange;
     text-decoration: none;
@@ -113,6 +115,8 @@ nav{
     margin-left: 1px;
 }
 .btn-2{
+    padding: 26px;
+    padding-block: 46px;
     color: #000;
     background-color: tomato;
     text-decoration: none;
@@ -123,6 +127,8 @@ nav{
     margin-left: 10px;
 }
 .btn-3{
+    padding: 24px;
+    padding-block: 46px;
     color: #000;
     background-color: darksalmon;
     text-decoration: none;
@@ -736,6 +742,7 @@ dt{
         text-align: right;
     }
     .btn-1{
+        
         color: #000;
         background-color: darkorange;
         text-decoration: none;
