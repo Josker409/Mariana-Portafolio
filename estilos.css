@@ -201,6 +201,8 @@ dt{
 }
 
 
+
+
 @media only screen and (min-width: 0px) {
     *{
         position: static;
@@ -323,6 +325,12 @@ dt{
     .punto{
         text-align: left;
     }
+    video{
+        height: 200px;
+    }
+    img{
+        height: 200px;
+    }
 }
 
 @media only screen and (min-width: 381px) {
@@ -432,6 +440,9 @@ dt{
         text-align: center;
         position: static;
     }
+    p{
+        margin-left: 60px;
+    }
 }
 
 @media only screen and (min-width: 472px) {
@@ -459,6 +470,15 @@ dt{
     }
     .h2{
         text-align: left;
+    }
+    video{
+        height: 220px;
+    }
+    img{
+        height: 220px;
+    }
+    p{
+        margin-left: 80px;
     }
 }
 
@@ -527,6 +547,15 @@ dt{
     .punto{
         margin-left: 10px;
     }
+    video{
+        height: 240px;
+    }
+    img{
+        height: 240px;
+    }
+    p{
+        margin-left: 100px;
+    }
 }
 @media only screen and (min-width: 593px) {
     .foto{
@@ -568,6 +597,15 @@ dt{
     nav{
         height: 80px !important;
     }
+    video{
+        height: 220px;
+    }
+    img{
+        height: 220px;
+    }
+    p{
+        margin-left: 120px;
+    }
 }
 
 @media only screen and (min-width: 663px) {
@@ -606,6 +644,9 @@ dt{
     }
     .punto{
         margin-left: 20px;
+    }
+    p{
+        margin-left: 140px;
     }
 }
 
@@ -684,7 +725,7 @@ dt{
 
 @media only screen and (min-width: 875px) {
     .row{
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .foto{
         height: 380px;
@@ -831,7 +872,7 @@ dt{
 
 @media only screen and (min-width: 1020px) {
     .row{
-        margin-left: 60px;
+        margin-left: 20px;
     }
     t
     aside{
@@ -874,13 +915,13 @@ dt{
         margin-left: 1px;
     }
     .correo{
-        margin: 100px;
+        margin: 80px;
     }
     .linkedin{
-        margin: 100px;
+        margin: 80px;
     }
     .copyright{
-        margin: 100px;
+        margin: 80px;
     }
     h3{
         margin-left: 380px;
