@@ -1,14 +1,17 @@
 $color_1: aqua;
-$color_2: cadetblue;
-$color_3: #131B23;
-$color_4: #F8FFE5;
-$color_5: #000;
-$color_6: chartreuse;
-$color_7: darkorange;
+$color_2: #333333;
+$color_3: cadetblue;
+$color_4: #131B23;
+$color_5: #F8FFE5;
+$color_6: #000;
+$color_7: chartreuse;
+$color_8: darkorange;
 $font-family_1: poppins, sans-serif;
-$background-color_1: darkorange;
-$background-color_2: tomato;
-$background-color_3: darksalmon;
+$background-color_1: #fff;
+$background-color_2: darkorange;
+$background-color_3: tomato;
+$background-color_4: darksalmon;
+$border-color_1: #333333;
 
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 /* Inicio */
@@ -37,14 +40,41 @@ header {
 	margin: 10px;
 	border: 100%;
 }
-.collapse {
-	navbar-collapse {
-		margin-left: 20px;
+.navbar {
+	background-color: $background-color_1;
+	padding: 11px;
+}
+nav {
+	height: 160px !important;
+}
+.navbar-brand {
+	font-size: 10px;
+	align-items: end;
+	font-weight: bolder;
+	.logo {
+		color: $color_2;
+		text-align: left;
+		margin-right: 10px;
+		font-weight: 10px;
+		span {
+			color: $color_3;
+		}
 	}
 }
-.navbar {
-	height: 2px;
-	width: auto;
+.navbar-nav {
+	.nav-item {
+		margin-right: 1px;
+	}
+	.nav-link {
+		color: $color_2;
+		font-weight: bold;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}
+.navbar-toggler-icon {
+	border-color: $border-color_1;
 }
 .container-fluid2 {
 	margin-left: 160px;
@@ -53,9 +83,9 @@ header {
 }
 .logo {
 	float: left;
-	color: $color_2;
+	color: $color_3;
 	span {
-		color: $color_3;
+		color: $color_4;
 	}
 }
 .barra {
@@ -69,7 +99,7 @@ header {
 		}
 	}
 	a {
-		color: $color_4;
+		color: $color_5;
 		text-decoration: none;
 		animation-duration: 2s;
 		animation-name: aparecer;
@@ -79,8 +109,8 @@ header {
 	}
 }
 .btn-1 {
-	color: $color_5;
-	background-color: $background-color_1;
+	color: $color_6;
+	background-color: $background-color_2;
 	text-decoration: none;
 	text-shadow: none;
 	height: 120px;
@@ -90,8 +120,8 @@ header {
 	margin-left: 1px;
 }
 .btn-2 {
-	color: $color_5;
-	background-color: $background-color_2;
+	color: $color_6;
+	background-color: $background-color_3;
 	text-decoration: none;
 	height: 120px;
 	width: 120px;
@@ -100,8 +130,8 @@ header {
 	margin-left: 10px;
 }
 .btn-3 {
-	color: $color_5;
-	background-color: $background-color_3;
+	color: $color_6;
+	background-color: $background-color_4;
 	text-decoration: none;
 	height: 120px;
 	width: 120px;
@@ -119,21 +149,21 @@ section {
 	height: 200px;
 }
 footer {
-	color: $color_6;
+	color: $color_7;
 	padding: 20px;
 	text-align: center;
 	height: 150px;
 	p {
 		margin-bottom: 20px;
-		color: $color_5;
+		color: $color_6;
 	}
 	.redes {
 		a {
-			color: $color_5;
+			color: $color_6;
 			text-decoration: none;
 		}
 		i {
-			color: $color_5;
+			color: $color_6;
 			font-style: 50px;
 		}
 	}
@@ -159,7 +189,7 @@ p {
 	margin-left: 100px;
 	height: 20px;
 	text-align: start;
-	color: $color_7;
+	color: $color_8;
 }
 dt {
 	margin-left: 40px;
@@ -171,7 +201,7 @@ dt {
 .navega {
 	text-decoration: none;
 	text-shadow: none;
-	color: $color_2;
+	color: $color_6;
 }
 @media only screen and (min-width: 0px) {
 	* {
@@ -190,8 +220,8 @@ dt {
 		text-align: left;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 90px;
@@ -201,8 +231,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 90px;
 		width: 90px;
@@ -211,8 +241,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 90px;
 		width: 90px;
@@ -235,7 +265,7 @@ dt {
 		margin-left: 60px;
 		height: 20px;
 		text-align: start;
-		color: $color_7;
+		color: $color_8;
 	}
 }
 @media only screen and (min-width: 318px) {
@@ -292,6 +322,12 @@ dt {
 	}
 	.punto {
 		text-align: left;
+	}
+	video {
+		height: 200px;
+	}
+	img {
+		height: 200px;
 	}
 }
 @media only screen and (min-width: 381px) {
@@ -356,8 +392,8 @@ dt {
 		text-align: left;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 100px;
@@ -367,8 +403,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 100px;
 		width: 100px;
@@ -377,8 +413,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 100px;
 		width: 100px;
@@ -396,6 +432,9 @@ dt {
 		margin: 60px;
 		text-align: center;
 		position: static;
+	}
+	p {
+		margin-left: 60px;
 	}
 }
 @media only screen and (min-width: 472px) {
@@ -424,6 +463,15 @@ dt {
 	.h2 {
 		text-align: left;
 	}
+	video {
+		height: 220px;
+	}
+	img {
+		height: 220px;
+	}
+	p {
+		margin-left: 80px;
+	}
 }
 @media only screen and (min-width: 500px) {
 	.correo {
@@ -433,8 +481,8 @@ dt {
 		margin: 30px;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 110px;
@@ -444,8 +492,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 110px;
 		width: 110px;
@@ -454,8 +502,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 110px;
 		width: 110px;
@@ -482,6 +530,21 @@ dt {
 	}
 	.copyright {
 		margin: 10px;
+	}
+	h3 {
+		margin-left: 50px;
+	}
+	.punto {
+		margin-left: 10px;
+	}
+	video {
+		height: 240px;
+	}
+	img {
+		height: 240px;
+	}
+	p {
+		margin-left: 100px;
 	}
 }
 @media only screen and (min-width: 593px) {
@@ -514,8 +577,23 @@ dt {
 	li {
 		text-align: left;
 	}
+	h3 {
+		margin-left: 80px;
+	}
 	.punto {
-		text-align: left;
+		margin-left: 20px;
+	}
+	nav {
+		height: 80px !important;
+	}
+	video {
+		height: 220px;
+	}
+	img {
+		height: 220px;
+	}
+	p {
+		margin-left: 120px;
 	}
 }
 @media only screen and (min-width: 663px) {
@@ -548,8 +626,14 @@ dt {
 	li {
 		text-align: left;
 	}
+	h3 {
+		margin-left: 120px;
+	}
 	.punto {
-		text-align: left;
+		margin-left: 20px;
+	}
+	p {
+		margin-left: 140px;
 	}
 }
 @media only screen and (min-width: 766px) {
@@ -565,8 +649,8 @@ dt {
 		text-align: right;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 100px;
@@ -576,8 +660,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 100px;
 		width: 100px;
@@ -586,8 +670,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 100px;
 		width: 100px;
@@ -616,8 +700,11 @@ dt {
 	li {
 		text-align: left;
 	}
+	h3 {
+		margin-left: 150px;
+	}
 	.punto {
-		text-align: left;
+		margin-left: 20px;
 	}
 }
 @media only screen and (min-width: 875px) {
@@ -625,16 +712,16 @@ dt {
 		margin-left: 20px;
 	}
 	.foto {
-		height: 360px;
+		height: 380px;
 		border: 100%;
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 	.texto {
 		text-align: right;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 95px;
@@ -644,8 +731,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 95px;
 		width: 95px;
@@ -654,8 +741,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 95px;
 		width: 95px;
@@ -684,8 +771,11 @@ dt {
 	li {
 		text-align: left;
 	}
+	h3 {
+		margin-left: 200px;
+	}
 	.punto {
-		text-align: left;
+		margin-left: 10px;
 	}
 }
 @media only screen and (min-width: 986px) {
@@ -693,16 +783,16 @@ dt {
 		margin-left: 20px;
 	}
 	.foto {
-		height: 420px;
+		height: 380px;
 		border: 100%;
-		margin: 40px;
+		margin: 60px;
 	}
 	.texto {
 		text-align: right;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 95px;
@@ -712,8 +802,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
+		color: $color_6;
+		background-color: $background-color_3;
 		text-decoration: none;
 		height: 95px;
 		width: 95px;
@@ -722,8 +812,8 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-3 {
-		color: $color_5;
-		background-color: $background-color_3;
+		color: $color_6;
+		background-color: $background-color_4;
 		text-decoration: none;
 		height: 95px;
 		width: 95px;
@@ -754,17 +844,20 @@ dt {
 	li {
 		text-align: left;
 	}
+	h3 {
+		margin-left: 280px;
+	}
 	.punto {
-		text-align: left;
+		margin-left: 20px;
 	}
 }
 @media only screen and (min-width: 1020px) {
 	.row {
-		margin-left: 60px;
+		margin-left: 20px;
 	}
 	t {
 		aside {
-			margin-left: 40px;
+			margin-left: 60px;
 		}
 	}
 	.foto {
@@ -773,8 +866,8 @@ dt {
 		margin: 80px;
 	}
 	.btn-1 {
-		color: $color_5;
-		background-color: $background-color_1;
+		color: $color_6;
+		background-color: $background-color_2;
 		text-decoration: none;
 		text-shadow: none;
 		height: 120px;
@@ -784,17 +877,7 @@ dt {
 		margin-left: 1px;
 	}
 	.btn-2 {
-		color: $color_5;
-		background-color: $background-color_2;
-		text-decoration: none;
-		height: 120px;
-		width: 120px;
-		display: flex;
-		border-radius: 80%;
-		margin-left: 1px;
-	}
-	.btn-3 {
-		color: $color_5;
+		color: $color_6;
 		background-color: $background-color_3;
 		text-decoration: none;
 		height: 120px;
@@ -803,14 +886,30 @@ dt {
 		border-radius: 80%;
 		margin-left: 1px;
 	}
+	.btn-3 {
+		color: $color_6;
+		background-color: $background-color_4;
+		text-decoration: none;
+		height: 120px;
+		width: 120px;
+		display: flex;
+		border-radius: 80%;
+		margin-left: 1px;
+	}
 	.correo {
-		margin: 100px;
+		margin: 80px;
 	}
 	.linkedin {
-		margin: 100px;
+		margin: 80px;
 	}
 	.copyright {
-		margin: 100px;
+		margin: 80px;
+	}
+	h3 {
+		margin-left: 380px;
+	}
+	.punto {
+		margin-left: 10px;
 	}
 }
 
