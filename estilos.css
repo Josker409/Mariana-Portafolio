@@ -13,7 +13,7 @@
 header{
     height: 20px;
     width: 50px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
     color: aqua;
     display: flex;
@@ -23,7 +23,7 @@ header{
 }
 
 .foto{
-    border-radius: 60%;
+    border-radius: 20%;
 }
 
 .navbar {
@@ -66,10 +66,15 @@ nav{
     border-color: #333333; /* Color del icono del botón desplegable */
 }
 
+.nav-item{
+    margin-left: 10px;
+}
+
 .foto{
     height: 450px;
     margin: 10px;
     border: 100%;
+
 }
 .container-fluid2{
     margin-left: 160px;
@@ -78,6 +83,7 @@ nav{
 }
 .logo {
     float: left;
+    margin-left: 100px;
     color: cadetblue;
 }
 .logo span {
@@ -102,7 +108,7 @@ nav{
     animation-iteration-count: infinite;
 }
 .btn-1{
-    padding: 20px;
+    padding: 22px;
     padding-block: 46px;
     color: #000;
     background-color: darkorange;
@@ -214,12 +220,16 @@ dt{
         position: static;
         text-align: center;
     }
+    .logo {
+        float: left;
+        margin-left: 20px;
+    }
     .foto{
         height: 300px;
         margin-top: 2px;
         border: 100%;
     }
-    h5{
+    h6{
         text-align: left;;
     }
     h2{
@@ -274,7 +284,7 @@ dt{
         position: static;
     }
     p{
-        margin-left: 60px;
+        margin-left: 80px;
         height: 20px;
         text-align: start;
         color: darkorange;
@@ -295,6 +305,10 @@ dt{
         margin: 10px;
         text-align: center;
         position: static;
+    }
+    .mipersona{
+        height: 320px;
+        border-radius: 60%;
     }
 }
 
@@ -325,7 +339,7 @@ dt{
     h2{
         text-align: left;
     }
-    h5{
+    h6{
         text-align: left;
     }
     dt{
@@ -333,6 +347,7 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     .punto{
         text-align: left;
@@ -342,6 +357,10 @@ dt{
     }
     img{
         height: 200px;
+    }
+    .mipersona{
+        height: 320px;
+        border-radius: 60%;
     }
 }
 
@@ -406,6 +425,7 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     .h2{
         text-align: left;
@@ -458,9 +478,6 @@ dt{
         text-align: center;
         position: static;
     }
-    p{
-        margin-left: 60px;
-    }
 }
 
 @media only screen and (min-width: 472px) {
@@ -485,6 +502,7 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     .h2{
         text-align: left;
@@ -494,9 +512,6 @@ dt{
     }
     img{
         height: 220px;
-    }
-    p{
-        margin-left: 80px;
     }
 }
 
@@ -556,6 +571,10 @@ dt{
 }
 
 @media only screen and (min-width: 533px) {
+    .logo {
+        float: left;
+        margin-left: 20px;
+    }
     .correo{
         margin: 10px;
     }
@@ -576,9 +595,6 @@ dt{
     }
     img{
         height: 240px;
-    }
-    p{
-        margin-left: 100px;
     }
 }
 @media only screen and (min-width: 593px) {
@@ -603,7 +619,7 @@ dt{
     h2{
         text-align: left;
     }
-    h5{
+    h6{
         text-align: left;
     }
     dt{
@@ -611,6 +627,7 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     h3{
         margin-left: 80px;
@@ -626,9 +643,6 @@ dt{
     }
     img{
         height: 220px;
-    }
-    p{
-        margin-left: 120px;
     }
 }
 
@@ -653,7 +667,7 @@ dt{
     h2{
         text-align: left;
     }
-    h5{
+    h6{
         text-align: left;
         
     }
@@ -662,15 +676,14 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
+
     }
     h3{
         margin-left: 120px;
     }
     .punto{
         margin-left: 20px;
-    }
-    p{
-        margin-left: 140px;
     }
 }
 
@@ -735,7 +748,7 @@ dt{
     h2{
         text-align: left;
     }
-    h5{
+    h6{
         text-align: left;
         
     }
@@ -744,12 +757,18 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     h3{
         margin-left: 150px;
     }
     .punto{
         margin-left: 20px;
+    }
+    .mipersona{
+        margin: 40px;
+        height: 320px;
+        border-radius: 60%;
     }
 }
 
@@ -814,7 +833,7 @@ dt{
     h2{
         text-align: left;
     }
-    h5{
+    h6{
         text-align: left;
     }
     dt{
@@ -822,12 +841,18 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     h3{
         margin-left: 200px;
     }
     .punto{
         margin-left: 10px;
+    }
+    .mipersona{
+        margin-block: 80px;
+        height: 320px;
+        border-radius: 60%;
     }
 }
 
@@ -887,7 +912,7 @@ dt{
         text-align: left;
         margin-left: 40px;
     }
-    h5{
+    h6{
         text-align: left;
         margin-left: 40px;
         
@@ -897,12 +922,18 @@ dt{
     }
     li{
         text-align: left;
+        margin-left: 40px;
     }
     h3{
         margin-left: 280px;
     }
     .punto{
         margin-left: 20px;
+    }
+    .mipersona{
+        margin-block: 40px;
+        height: 320px;
+        border-radius: 60%;
     }
 }
 
@@ -915,12 +946,14 @@ dt{
         margin-left: 60px;
     }
     .foto{
-        height: 440px;
+        height: 400px;
+        width: 330px;
         border: 100%;
-        margin: 80px;
+        margin: 40px;
+        margin-left: 180px;
     }
     .btn-1{
-        padding: 16px;
+        padding: 18px;
         padding-block: 44px;
         color: #000;
         background-color: darkorange;
@@ -970,5 +1003,10 @@ dt{
     }
     .punto{
         margin-left: 10px;
+    }
+    .mipersona{
+        margin-block: 20px;
+        height: 300px;
+        border-radius: 60%;
     }
 }

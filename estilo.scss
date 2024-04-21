@@ -26,7 +26,7 @@ $border-color_1: #333333;
 header {
 	height: 20px;
 	width: 50px;
-	padding: 30px;
+	padding: 10px;
 	font-size: 20px;
 	color: $color_1;
 	display: flex;
@@ -35,7 +35,7 @@ header {
 	font-weight: bolder;
 }
 .foto {
-	border-radius: 60%;
+	border-radius: 20%;
 	height: 450px;
 	margin: 10px;
 	border: 100%;
@@ -76,6 +76,9 @@ nav {
 .navbar-toggler-icon {
 	border-color: $border-color_1;
 }
+.nav-item {
+	margin-left: 10px;
+}
 .container-fluid2 {
 	margin-left: 160px;
 	margin-right: 140px;
@@ -83,6 +86,7 @@ nav {
 }
 .logo {
 	float: left;
+	margin-left: 100px;
 	color: $color_3;
 	span {
 		color: $color_4;
@@ -109,7 +113,7 @@ nav {
 	}
 }
 .btn-1 {
-	padding: 20px;
+	padding: 22px;
 	padding-block: 46px;
 	color: $color_6;
 	background-color: $background-color_2;
@@ -214,12 +218,16 @@ dt {
 		position: static;
 		text-align: center;
 	}
+	.logo {
+		float: left;
+		margin-left: 20px;
+	}
 	.foto {
 		height: 300px;
 		margin-top: 2px;
 		border: 100%;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	h2 {
@@ -274,7 +282,7 @@ dt {
 		position: static;
 	}
 	p {
-		margin-left: 60px;
+		margin-left: 80px;
 		height: 20px;
 		text-align: start;
 		color: $color_8;
@@ -294,6 +302,10 @@ dt {
 		margin: 10px;
 		text-align: center;
 		position: static;
+	}
+	.mipersona {
+		height: 320px;
+		border-radius: 60%;
 	}
 }
 @media only screen and (min-width: 361px) {
@@ -323,7 +335,7 @@ dt {
 	h2 {
 		text-align: left;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	dt {
@@ -331,6 +343,7 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	.punto {
 		text-align: left;
@@ -340,6 +353,10 @@ dt {
 	}
 	img {
 		height: 200px;
+	}
+	.mipersona {
+		height: 320px;
+		border-radius: 60%;
 	}
 }
 @media only screen and (min-width: 381px) {
@@ -399,6 +416,7 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	.h2 {
 		text-align: left;
@@ -451,9 +469,6 @@ dt {
 		text-align: center;
 		position: static;
 	}
-	p {
-		margin-left: 60px;
-	}
 }
 @media only screen and (min-width: 472px) {
 	.foto {
@@ -477,6 +492,7 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	.h2 {
 		text-align: left;
@@ -486,9 +502,6 @@ dt {
 	}
 	img {
 		height: 220px;
-	}
-	p {
-		margin-left: 80px;
 	}
 }
 @media only screen and (min-width: 500px) {
@@ -546,6 +559,10 @@ dt {
 	}
 }
 @media only screen and (min-width: 533px) {
+	.logo {
+		float: left;
+		margin-left: 20px;
+	}
 	.correo {
 		margin: 10px;
 	}
@@ -566,9 +583,6 @@ dt {
 	}
 	img {
 		height: 240px;
-	}
-	p {
-		margin-left: 100px;
 	}
 }
 @media only screen and (min-width: 593px) {
@@ -592,7 +606,7 @@ dt {
 	h2 {
 		text-align: left;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	dt {
@@ -600,6 +614,7 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	h3 {
 		margin-left: 80px;
@@ -615,9 +630,6 @@ dt {
 	}
 	img {
 		height: 220px;
-	}
-	p {
-		margin-left: 120px;
 	}
 }
 @media only screen and (min-width: 663px) {
@@ -641,7 +653,7 @@ dt {
 	h2 {
 		text-align: left;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	dt {
@@ -649,15 +661,13 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	h3 {
 		margin-left: 120px;
 	}
 	.punto {
 		margin-left: 20px;
-	}
-	p {
-		margin-left: 140px;
 	}
 }
 @media only screen and (min-width: 766px) {
@@ -721,7 +731,7 @@ dt {
 	h2 {
 		text-align: left;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	dt {
@@ -729,12 +739,18 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	h3 {
 		margin-left: 150px;
 	}
 	.punto {
 		margin-left: 20px;
+	}
+	.mipersona {
+		margin: 40px;
+		height: 320px;
+		border-radius: 60%;
 	}
 }
 @media only screen and (min-width: 875px) {
@@ -798,7 +814,7 @@ dt {
 	h2 {
 		text-align: left;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 	}
 	dt {
@@ -806,12 +822,18 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	h3 {
 		margin-left: 200px;
 	}
 	.punto {
 		margin-left: 10px;
+	}
+	.mipersona {
+		margin-block: 80px;
+		height: 320px;
+		border-radius: 60%;
 	}
 }
 @media only screen and (min-width: 986px) {
@@ -870,7 +892,7 @@ dt {
 		text-align: left;
 		margin-left: 40px;
 	}
-	h5 {
+	h6 {
 		text-align: left;
 		margin-left: 40px;
 	}
@@ -879,12 +901,18 @@ dt {
 	}
 	li {
 		text-align: left;
+		margin-left: 40px;
 	}
 	h3 {
 		margin-left: 280px;
 	}
 	.punto {
 		margin-left: 20px;
+	}
+	.mipersona {
+		margin-block: 40px;
+		height: 320px;
+		border-radius: 60%;
 	}
 }
 @media only screen and (min-width: 1020px) {
@@ -897,12 +925,14 @@ dt {
 		}
 	}
 	.foto {
-		height: 440px;
+		height: 400px;
+		width: 330px;
 		border: 100%;
-		margin: 80px;
+		margin: 40px;
+		margin-left: 180px;
 	}
 	.btn-1 {
-		padding: 16px;
+		padding: 18px;
 		padding-block: 44px;
 		color: $color_6;
 		background-color: $background-color_2;
@@ -952,5 +982,10 @@ dt {
 	}
 	.punto {
 		margin-left: 10px;
+	}
+	.mipersona {
+		margin-block: 20px;
+		height: 300px;
+		border-radius: 60%;
 	}
 }
